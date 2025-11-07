@@ -1,5 +1,4 @@
-import { Navebar } from "./My_Components/NaveBar/Navebar";
-import { Layout } from "./My_Components/Sidebar/Layout";
+import { Layout } from "./My_Components/MainStructure/Layout";
 
 function App() {
   return (

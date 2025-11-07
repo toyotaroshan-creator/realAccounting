@@ -1,6 +1,6 @@
 import { Sidebar, SidebarMenu, SidebarMenuItem } from "@/components/ui/sidebar";
 import { SidebarHeader } from "../../components/ui/sidebar";
-import { Dropdown } from "../Genral_Components/Dropdown/Dropdown";
+import { DropdownSidebar } from "../Genral_Components/Dropdown/DropdownSidebar";
 import { CiCalculator1, CiFileOn, CiStickyNote } from "react-icons/ci";
 import { VscFiles } from "react-icons/vsc";
 import { TbReportAnalytics, TbReportSearch } from "react-icons/tb";
@@ -145,7 +145,7 @@ export function AppSidebar() {
               {Rangeoutside.map((item, index) => {
                 return (
                   <div key={index}>
-                    <Dropdown
+                    <DropdownSidebar
                       Dropdownfunction={Dropdownfunction}
                       Rangeinside={item}
                       outerindex={index}

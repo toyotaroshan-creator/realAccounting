@@ -12,7 +12,11 @@ import {
 
 import { ChevronDown } from "lucide-react";
 
-export const Dropdown = ({ Rangeinside, outerindex, Dropdownfunction }) => {
+export const DropdownSidebar = ({
+  Rangeinside = [],
+  outerindex = [],
+  Dropdownfunction,
+}) => {
   return (
     <div>
       <div className="bg-white cursor-pointer px-2  border rounded-sm items-center ">
@@ -32,7 +36,7 @@ export const Dropdown = ({ Rangeinside, outerindex, Dropdownfunction }) => {
             <CollapsibleContent>
               <SidebarGroupContent />
               <div className="grid gap-2 mt-5 ">
-                {Rangeinside.range.map((item, index) => {
+                {Rangeinside?.range?.map((item, index) => {
                   return (
                     <div key={index}>
                       <p
