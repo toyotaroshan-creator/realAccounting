@@ -37,6 +37,8 @@ import { Routecomponents } from "./Routecomponents";
 import { Breadcrumbgeneral } from "../Genral_Components/Breadcrumb/Breadcrumbgeneral";
 import { ShowTransaction } from "../../Pages/Files/Transaction/Show/ShowTransaction";
 import { ShowOffer } from "../../Pages/Files/Offer/Show/ShowOffer";
+import { DashboradAgents } from "../../Pages/Contacts/Agents/dashborad/DashboradAgents";
+import { DashboradBrokerag } from "../../Pages/Contacts/Brokerages/dashborad/DashboradBrokerag";
 //import { DashboradBrokerag } from "../../Pages/Contacts/Brokerages/dashborad/DashboradBrokerag";
 export const links = {
   dashborad: dashborad,
@@ -63,11 +65,11 @@ export const links = {
   ShowTransaction: ShowTransaction,
   DetailsTransaction: DetailsTransaction,
   //agetns
-  // DashboradAgents: DashboradAgents,
+  DashboradAgents: DashboradAgents,
   DetailsAgents: DetailsAgents,
   ShowAgents: ShowAgents,
   //Brokerages
-  // DashboradBrokerag: DashboradBrokerag,
+  DashboradBrokerag: DashboradBrokerag,
   DetailsBrokerages: DetailsBrokerages,
   // ShowBrokerages: ShowBrokerages,
   //Clients
