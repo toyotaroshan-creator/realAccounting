@@ -14,13 +14,13 @@ import { DetailsOffer } from "../../Pages/Files/Offer/Details/DetailsOffer";
 import { CreateOffer } from "../../Pages/Files/Offer/Create/CreateOffer";
 import { DashboradOffer } from "../../Pages/Files/Offer/dashborad/DashboradOffer";
 //transaction
-// import { ShowTransaction } from "../../Pages/Files/Transaction/show/ShowTransaction";
+
 import { DetailsTransaction } from "../../Pages/Files/Transaction/Details/DetailsTransaction";
 import { DashboradTransaction } from "../../Pages/Files/Transaction/dashborad/DashboradTransaction";
 //Agents
 import { DashboradAgents } from "../../Pages/Contacts/Agents/dashborad/dashboradAgents";
 import { DetailsAgents } from "../../Pages/Contacts/Agents/Details/DetailsAgents";
-// import { ShowAgents } from "../../Pages/Contacts/Agents/Show/ShowAgents";
+import { ShowAgents } from "../../Pages/Contacts/Agents/Show/ShowAgents";
 //Brokerages
 import { DetailsBrokerages } from "../../Pages/Contacts/Brokerages/Details/DetailsBrokerages";
 // import { ShowBrokerages } from "../../Pages/Contacts/Brokerages/Show/ShowBrokerages";
@@ -37,6 +37,8 @@ import { AppSidebar } from "../Sidebar/AppSidebar";
 import { Navebar } from "../NaveBar/Navebar";
 import { Routecomponents } from "./Routecomponents";
 import { Breadcrumbgeneral } from "../Genral_Components/Breadcrumb/Breadcrumbgeneral";
+import { ShowTransaction } from "../../Pages/Files/Transaction/Show/ShowTransaction";
+import { DashboradBrokerag } from "../../Pages/Contacts/Brokerages/dashborad/DashboradBrokerag";
 export const links = {
   dashborad: dashborad,
   AppSidebar: AppSidebar,
@@ -59,14 +61,14 @@ export const links = {
   CreateOffer: CreateOffer,
   //transaction
   DashboradTransaction: DashboradTransaction,
-  // ShowTransaction: ShowTransaction,
+  ShowTransaction: ShowTransaction,
   DetailsTransaction: DetailsTransaction,
   //agetns
   DashboradAgents: DashboradAgents,
   DetailsAgents: DetailsAgents,
-  // ShowAgents: ShowAgents,
+  ShowAgents: ShowAgents,
   //Brokerages
-  DashboradBrokerges: DashboradBrokerges,
+  DashboradBrokerag: DashboradBrokerag,
   DetailsBrokerages: DetailsBrokerages,
   // ShowBrokerages: ShowBrokerages,
   //Clients
