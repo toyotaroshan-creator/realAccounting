@@ -23,8 +23,6 @@ import { DetailsAgents } from "../../Pages/Contacts/Agents/Details/DetailsAgents
 import { ShowAgents } from "../../Pages/Contacts/Agents/Show/ShowAgents";
 //Brokerages
 import { DetailsBrokerages } from "../../Pages/Contacts/Brokerages/Details/DetailsBrokerages";
-// import { ShowBrokerages } from "../../Pages/Contacts/Brokerages/Show/ShowBrokerages";
-import { DashboradBrokerges } from "../../Pages/Contacts/Brokerages/dashborad/dashboradBrokerges";
 //Clients
 import { DetailsClients } from "../../Pages/Contacts/Clients/Details/DetailsClients";
 import { ShowClients } from "../../Pages/Contacts/Clients/Show/ShowClients";
@@ -38,7 +36,7 @@ import { Navebar } from "../NaveBar/Navebar";
 import { Routecomponents } from "./Routecomponents";
 import { Breadcrumbgeneral } from "../Genral_Components/Breadcrumb/Breadcrumbgeneral";
 import { ShowTransaction } from "../../Pages/Files/Transaction/Show/ShowTransaction";
-import { DashboradBrokerag } from "../../Pages/Contacts/Brokerages/dashborad/DashboradBrokerag";
+//import { DashboradBrokerag } from "../../Pages/Contacts/Brokerages/dashborad/DashboradBrokerag";
 export const links = {
   dashborad: dashborad,
   AppSidebar: AppSidebar,
@@ -68,7 +66,7 @@ export const links = {
   DetailsAgents: DetailsAgents,
   ShowAgents: ShowAgents,
   //Brokerages
-  DashboradBrokerag: DashboradBrokerag,
+  // DashboradBrokerag: DashboradBrokerag,
   DetailsBrokerages: DetailsBrokerages,
   // ShowBrokerages: ShowBrokerages,
   //Clients
