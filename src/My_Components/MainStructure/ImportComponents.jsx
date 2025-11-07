@@ -62,7 +62,7 @@ export const links = {
   ShowTransaction: ShowTransaction,
   DetailsTransaction: DetailsTransaction,
   //agetns
-  DashboradAgents: DashboradAgents,
+  // DashboradAgents: DashboradAgents,
   DetailsAgents: DetailsAgents,
   ShowAgents: ShowAgents,
   //Brokerages
@@ -70,11 +70,11 @@ export const links = {
   DetailsBrokerages: DetailsBrokerages,
   // ShowBrokerages: ShowBrokerages,
   //Clients
-  DashboradClients: DashboradClients,
+  // DashboradClients: DashboradClients,
   DetailsClients: DetailsClients,
   ShowClients: ShowClients,
   //Lawyers
-  DashboradLawyers: DashboradLawyers,
+  // DashboradLawyers: DashboradLawyers,
   DetailsLawyers: DetailsLawyers,
   ShowLawyers: ShowLawyers,
 };
