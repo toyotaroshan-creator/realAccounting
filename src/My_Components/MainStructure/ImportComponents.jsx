@@ -9,7 +9,7 @@ import { ShowListing } from "../../Pages/Files/Listing/show/ShowListing";
 import { DetailsListing } from "../../Pages/Files/Listing/Details/DetailsListing";
 import { CreateListing } from "../../Pages/Files/Listing/Create/CreateListing";
 //offer
-import { ShowOffer } from "../../Pages/Files/Offer/show/ShowOffer";
+
 import { DetailsOffer } from "../../Pages/Files/Offer/Details/DetailsOffer";
 import { CreateOffer } from "../../Pages/Files/Offer/Create/CreateOffer";
 import { DashboradOffer } from "../../Pages/Files/Offer/dashborad/DashboradOffer";
@@ -54,7 +54,7 @@ export const links = {
   DetailsListing: DetailsListing,
   //offer
   DashboradOffer: DashboradOffer,
-  ShowOffer: ShowOffer,
+  // ShowOffer: ShowOffer,
   DetailsOffer: DetailsOffer,
   CreateOffer: CreateOffer,
   //transaction
