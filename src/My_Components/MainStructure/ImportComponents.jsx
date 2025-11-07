@@ -33,8 +33,16 @@ import { DashboradClients } from "../../Pages/Contacts/Clients/dashborad/dashbor
 import { DetailsLawyers } from "../../Pages/Contacts/Lawyers/Details/DetailsLawyers";
 import { ShowLawyers } from "../../Pages/Contacts/Lawyers/Show/ShowLawyers";
 import { DashboradLawyers } from "../../Pages/Contacts/Lawyers/dashborad/DashboradLawyers";
+import { AppSidebar } from "../Sidebar/AppSidebar";
+import { Navebar } from "../NaveBar/Navebar";
+import { Routecomponents } from "./Routecomponents";
+import { Breadcrumbgeneral } from "../Genral_Components/Breadcrumb/Breadcrumbgeneral";
 export const links = {
   dashborad: dashborad,
+  AppSidebar: AppSidebar,
+  Navebar: Navebar,
+  Routecomponents: Routecomponents,
+  Breadcrumbgeneral: Breadcrumbgeneral,
   //all
   DashbordAll: DashbordAll,
   DetailsAll: DetailsAll,

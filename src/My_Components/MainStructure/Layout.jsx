@@ -1,24 +1,18 @@
-import React from "react";
 import { SidebarProvider, SidebarTrigger } from "../../components/ui/sidebar";
-import { AppSidebar } from "../Sidebar/AppSidebar";
-import { Navebar } from "../NaveBar/Navebar";
-import { DataTableDemo } from "../Genral_Components/Data_Table/DataTableDemo";
-import { Button } from "../../components/ui/button";
 import { Breadcrumbgeneral } from "../Genral_Components/Breadcrumb/Breadcrumbgeneral";
-import { Show } from "./main/Show";
-import { Routecomponents } from "./Routecomponents";
+import { links } from "./ImportComponents";
 
 export function Layout({ children }) {
   return (
     <>
       {/* Navbar */}
 
-      <Navebar />
+      <links.Navebar />
       <div className="absolute  w-full">
         {/* Sidebar context */}
         <SidebarProvider>
           {/* Sidebar */}
-          <AppSidebar />
+          <links.AppSidebar />
 
           {/* Main content area */}
           <main className="flex-1  py-16  ">
@@ -30,11 +24,11 @@ export function Layout({ children }) {
                     <SidebarTrigger />
                   </div>
                   <div className="ml-1">
-                    <Breadcrumbgeneral />
+                    <links.Breadcrumbgeneral />
                   </div>
                 </div>
                 {/* <Show /> */}
-                <Routecomponents />
+                <links.Routecomponents />
               </div>
             </div>
 

@@ -11,7 +11,6 @@ import { Link } from "react-router-dom";
 export const Breadcrumbgeneral = () => {
   return (
     <div className="">
-      {" "}
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>
