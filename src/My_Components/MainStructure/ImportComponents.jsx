@@ -18,7 +18,7 @@ import { DashboradOffer } from "../../Pages/Files/Offer/dashborad/DashboradOffer
 import { DetailsTransaction } from "../../Pages/Files/Transaction/Details/DetailsTransaction";
 import { DashboradTransaction } from "../../Pages/Files/Transaction/dashborad/DashboradTransaction";
 //Agents
-import { DashboradAgents } from "../../Pages/Contacts/Agents/dashborad/dashboradAgents";
+
 import { DetailsAgents } from "../../Pages/Contacts/Agents/Details/DetailsAgents";
 import { ShowAgents } from "../../Pages/Contacts/Agents/Show/ShowAgents";
 //Brokerages
@@ -26,11 +26,11 @@ import { DetailsBrokerages } from "../../Pages/Contacts/Brokerages/Details/Detai
 //Clients
 import { DetailsClients } from "../../Pages/Contacts/Clients/Details/DetailsClients";
 import { ShowClients } from "../../Pages/Contacts/Clients/Show/ShowClients";
-import { DashboradClients } from "../../Pages/Contacts/Clients/dashborad/dashboradClients";
+
 //Lawyers
 import { DetailsLawyers } from "../../Pages/Contacts/Lawyers/Details/DetailsLawyers";
 import { ShowLawyers } from "../../Pages/Contacts/Lawyers/Show/ShowLawyers";
-import { DashboradLawyers } from "../../Pages/Contacts/Lawyers/dashborad/DashboradLawyers";
+
 import { AppSidebar } from "../Sidebar/AppSidebar";
 import { Navebar } from "../NaveBar/Navebar";
 import { Routecomponents } from "./Routecomponents";
