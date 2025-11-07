@@ -9,15 +9,16 @@ import { IoIosContact } from "react-icons/io";
 import { SiContactlesspayment } from "react-icons/si";
 import { FaFileSignature, FaRegAddressBook, FaRegUser } from "react-icons/fa6";
 import { MdContentPasteSearch } from "react-icons/md";
+import { useNavigate } from "react-router-dom";
 
 export function AppSidebar() {
   const Rangeoutside = [
     {
       range: [
-        { value: "All", constant: "all" },
-        { value: "Listing", constant: "listing" },
-        { value: "Offers", constant: "offers" },
-        { value: "Transactions", constant: "transactions" },
+        { value: "All", constant: "All" },
+        { value: "Listing", constant: "Listing" },
+        { value: "Offers", constant: "Offers" },
+        { value: "Transactions", constant: "Transactions" },
       ],
       logo: <CiFileOn />,
       heading: "Files",
@@ -129,8 +130,10 @@ export function AppSidebar() {
       heading: "About",
     }, //About
   ];
+  const navelink = useNavigate();
   const Dropdownfunction = (constant) => {
     console.log(constant);
+    navelink(`${constant.constant}/${constant.constant}Show`);
   };
   return (
     <Sidebar

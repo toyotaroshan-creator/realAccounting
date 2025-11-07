@@ -16,14 +16,6 @@ const initialState = {
       email: "Abe45@example.com",
       check: true,
     },
-    {
-      id: "derv1ws0",
-      amount: 837,
-      status: "processing",
-      email: "Monserrat44@example.com",
-      check: true,
-    },
-   
   ],
   value: "",
 };
@@ -34,8 +26,8 @@ export const counterSlice = createSlice({
   reducers: {
     updatevalue: (state, actions) => {
       const data = actions.payload;
-      console.log(data);
       state.value = data.value;
+      console.log(data);
       state["data"][data.index]["amount"] = data.value;
     },
   },
