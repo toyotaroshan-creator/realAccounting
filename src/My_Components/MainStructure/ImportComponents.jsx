@@ -39,6 +39,9 @@ import { ShowTransaction } from "../../Pages/Files/Transaction/Show/ShowTransact
 import { ShowOffer } from "../../Pages/Files/Offer/Show/ShowOffer";
 import { DashboradAgents } from "../../Pages/Contacts/Agents/dashborad/DashboradAgents";
 import { DashboradBrokerag } from "../../Pages/Contacts/Brokerages/dashborad/DashboradBrokerag";
+import { ShowBrokerages } from "../../Pages/Contacts/Brokerages/Show/ShowBrokerages";
+import { DashboradClients } from "../../Pages/Contacts/Clients/dashborad/DashboradClients";
+import { DashboradLawyers } from "../../Pages/Contacts/Lawyers/dashborad/DashboradLawyers";
 //import { DashboradBrokerag } from "../../Pages/Contacts/Brokerages/dashborad/DashboradBrokerag";
 export const links = {
   dashborad: dashborad,
@@ -71,13 +74,13 @@ export const links = {
   //Brokerages
   DashboradBrokerag: DashboradBrokerag,
   DetailsBrokerages: DetailsBrokerages,
-  // ShowBrokerages: ShowBrokerages,
+  ShowBrokerages: ShowBrokerages,
   //Clients
-  // DashboradClients: DashboradClients,
+  DashboradClients: DashboradClients,
   DetailsClients: DetailsClients,
   ShowClients: ShowClients,
   //Lawyers
-  // DashboradLawyers: DashboradLawyers,
+  DashboradLawyers: DashboradLawyers,
   DetailsLawyers: DetailsLawyers,
   ShowLawyers: ShowLawyers,
 };
