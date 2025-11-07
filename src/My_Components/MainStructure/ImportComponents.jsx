@@ -36,6 +36,7 @@ import { Navebar } from "../NaveBar/Navebar";
 import { Routecomponents } from "./Routecomponents";
 import { Breadcrumbgeneral } from "../Genral_Components/Breadcrumb/Breadcrumbgeneral";
 import { ShowTransaction } from "../../Pages/Files/Transaction/Show/ShowTransaction";
+import { ShowOffer } from "../../Pages/Files/Offer/Show/ShowOffer";
 //import { DashboradBrokerag } from "../../Pages/Contacts/Brokerages/dashborad/DashboradBrokerag";
 export const links = {
   dashborad: dashborad,
@@ -54,7 +55,7 @@ export const links = {
   DetailsListing: DetailsListing,
   //offer
   DashboradOffer: DashboradOffer,
-  // ShowOffer: ShowOffer,
+  ShowOffer: ShowOffer,
   DetailsOffer: DetailsOffer,
   CreateOffer: CreateOffer,
   //transaction
